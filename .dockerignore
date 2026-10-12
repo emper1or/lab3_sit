@@ -1,0 +1,33 @@
+# Контекст сборки: не копируем в образ то, что не нужно приложению.
+
+# Виртуальные окружения и кэш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Git и метаданные репозитория
+.git/
+.gitignore
+.github/
+.gitattributes
+
+# Документация и локальные файлы
+*.md
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker-описания (внутри образа не нужны)
+Dockerfile
+.dockerignore
+docker-compose*.yml
