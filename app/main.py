@@ -181,7 +181,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
     <main class="card">
-        <h1>Ипотечный калькулятор</h1>
+        <h1>Ипотечный калькулятор NEW Version</h1>
         <p class="subtitle">Аннуитетный платёж, итоговая сумма и переплата</p>
 
         <form method="post" action="/">
