@@ -4,9 +4,6 @@ on:
   push:
     branches: [main]
 
-# Пайплайн идёт по цепочке: lint -> test -> deploy.
-# deploy крутится на self-hosted раннере (домашний Debian-сервер) и
-# пересобирает docker-контейнер mortgage-prod.
 jobs:
   lint:
     name: Линтер (flake8)
