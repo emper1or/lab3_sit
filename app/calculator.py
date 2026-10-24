@@ -5,7 +5,7 @@
 """
 
 from __future__ import annotations
-
+import os
 from typing import Dict
 
 # Количество платежей в году (стандартная аннуитетная схема — 12 платежей).
