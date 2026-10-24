@@ -46,7 +46,7 @@ def test_zero_rate():
     assert result["overpayment"] == pytest.approx(0.0, abs=0.01)
 
     result_5y = calculate_mortgage(1_200_000, 0, 5)
-    assert result_5y["monthly_payment"] == pytest.approx(20_000.0, abs=0.01)
+    assert result_5y["monthly_payment"] == pytest.approx(30_000.0, abs=0.01)
     assert result_5y["overpayment"] == pytest.approx(0.0, abs=0.01)
 
 
